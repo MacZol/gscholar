@@ -1,0 +1,40 @@
+{
+  "name": "scholar_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "author": "Scholar Agent",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.5",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.2.3",
+    "helmet": "^4.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.17",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.4.16",
+    "puppeteer": "^5.5.0",
+    "socket.io": "^3.0.3",
+    "striptags": "^3.1.1",
+    "validator": "^13.1.17",
+    "xss": "^1.0.8",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

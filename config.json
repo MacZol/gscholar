@@ -1,0 +1,10 @@
+{
+  "dbUrl": "mongodb+srv://rebecca:kent123@gscholar.rj4bj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "PORT": "4000",
+  "NODE_ENV": "development",
+  "JWTSecret": "SujanDaiRocks",
+  "email": "gscholaragent@gmail.com",
+  "password": "KentScholarAgent321",
+  "scrape_cron_time": "*/180 * * * *",
+  "log_cron_time": "0 */24 * * *"
+}
